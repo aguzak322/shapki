@@ -59,4 +59,13 @@ body {
     margin-left: 10%;
     margin-top: 56px;
     cursor: pointer;
+    transform: scale(1);
+    transition: ease 300ms all;
+}
+
+.balenc:hover {
+    border: #000;
+    border-style: solid ;
+    transform: scale(1.1);
+    transition: ease 300ms all;
 }
